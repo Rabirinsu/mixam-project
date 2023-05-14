@@ -13,11 +13,12 @@ namespace Exoa.Cameras.Demos
 
         private void Start()
         {
+           
         }
 
         public void SetFollow()
         {
-           // CameraEvents.OnRequestObjectFollow?.Invoke(gameObject, focusOnFollow, allowYoffset);
+        //    followButton.onClick.AddListener(OnSelected(TouchSelect.select));
         }
 
         public bool Focus

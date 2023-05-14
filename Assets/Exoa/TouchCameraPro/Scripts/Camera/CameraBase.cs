@@ -50,7 +50,7 @@ namespace Exoa.Cameras
         public Springs groundHeightAnim;
         private FloatSpring groundHeightValue;
 
-        public enum InputMapFingerDrag { Translate, RotateAround, RotateHead, None };
+        public enum InputMapFingerDrag { Translate, RotateAround, RotateHead,  None };
         public enum InputMapFingerPinch { ZoomAndRotate, RotateOnly, ZoomOnly, None };
         public enum InputMapScrollWheel { ZoomUnderMouse, ZoomInCenter, None };
 

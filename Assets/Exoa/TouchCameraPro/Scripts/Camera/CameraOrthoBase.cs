@@ -96,7 +96,6 @@ namespace Exoa.Cameras
                 zoomRatio = CameraInputs.GetScroll();
                 worldPointFingersCenter = ClampInCameraBoundaries(HeightScreenDepth.Convert(BaseTouchInput.GetMousePosition()));
                 anyInteraction = true;
-
             }
 
             finalSize = Mathf.Clamp(finalSize * zoomRatio, sizeMinMax.x, sizeMinMax.y);
